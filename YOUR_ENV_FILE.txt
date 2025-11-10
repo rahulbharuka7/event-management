@@ -1,0 +1,31 @@
+# Copy this entire content to a file named .env in the project root
+
+# IMPORTANT: Replace YOUR_ACTUAL_PASSWORD with your real MongoDB Atlas password
+MONGODB_URI=mongodb+srv://rahulbharuka5_db_user:YOUR_ACTUAL_PASSWORD@cluster0.ffe5qw0.mongodb.net/event-management?retryWrites=true&w=majority&appName=Cluster0
+
+PORT=5000
+NODE_ENV=development
+
+
+# ============================================
+# INSTRUCTIONS:
+# ============================================
+# 
+# 1. Replace YOUR_ACTUAL_PASSWORD with your real password
+#    (the one you set when creating the database user)
+#
+# 2. If your password has special characters, encode them:
+#    @ becomes %40
+#    ! becomes %21
+#    # becomes %23
+#    $ becomes %24
+#    % becomes %25
+#
+# 3. Save this as .env (not .env.txt)
+#
+# 4. Make sure your IP is whitelisted in MongoDB Atlas:
+#    - Go to Network Access
+#    - Add IP Address
+#    - Choose "Allow Access from Anywhere" (0.0.0.0/0)
+#
+# ============================================
