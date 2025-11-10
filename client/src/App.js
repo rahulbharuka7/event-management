@@ -4,6 +4,7 @@ import './styles/App.css';
 import ProfileSelector from './components/ProfileSelector';
 import CreateEvent from './components/CreateEvent';
 import EventsList from './components/EventsList';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
         <CreateEvent />
         <EventsList />
       </div>
+      
+      <Footer />
     </div>
   );
 }
