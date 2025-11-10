@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Plus, Users, Globe, Calendar, Clock } from 'lucide-react';
+import { Plus } from 'lucide-react';
 import useStore from '../store/useStore';
 import { TIMEZONES } from '../utils/timezones';
 import dayjs from 'dayjs';

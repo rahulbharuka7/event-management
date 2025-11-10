@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Calendar, Clock, Users, History, Edit, Trash2 } from 'lucide-react';
+import { Calendar, Clock, Users, History } from 'lucide-react';
 import useStore from '../store/useStore';
 import { TIMEZONES } from '../utils/timezones';
 import EditEventModal from './EditEventModal';
